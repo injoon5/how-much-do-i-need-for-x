@@ -3,9 +3,10 @@ var nowYear = t.getFullYear(); // 오늘 날짜의 연도 정보를 가져옵니
 
 
 // 여기부터
-var month = 11
-var date = 04
-var moneyoneday = 1500
+var month = 11 //살 수 있는 달
+var date = 04 //살 수 있는 날
+var moneyoneday = 1500 //하루에 생기는 돈
+var extramoney = 300 //지금 더 번 돈
 // 여기까지의 변수 값 바꿔서 사용!
 
 // 현재 연도에 12월 31일 날짜 객체를 생성합니다.
@@ -20,4 +21,4 @@ var moneyleft = result*moneyoneday
 document.write("오늘부터 12/4 까지는 " +
     "<strong>" + result + "</strong>" + "일 남았습니다. <br>");
 document.write("남은 돈은 " +
-    "<strong>" + moneyleft + "</strong>" + "원 남았습니다.");
+    "<strong>" + moneyleft-extramoney + "</strong>" + "원 남았습니다.");
