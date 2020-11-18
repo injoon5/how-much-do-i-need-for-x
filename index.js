@@ -21,4 +21,4 @@ var moneyleft = result*moneyoneday-extramoney
 document.write("오늘부터 12/4 까지는 " +
     "<strong>" + result + "</strong>" + "일 남았습니다. <br>");
 document.write("남은 돈은 " +
-    "<strong>" + moneyleft-extramoney + "</strong>" + "원 남았습니다.");
+    "<strong>" + moneyleft + "</strong>" + "원 남았습니다.");
