@@ -17,7 +17,7 @@ var diffDate = theDate-t;
 var result = Math.ceil( diffDate / (60*1000*60*24));
 // 남은 일수를 출력합니다.
 
-var moneyleft = result*moneyoneday
+var moneyleft = result*moneyoneday-extramoney
 document.write("오늘부터 12/4 까지는 " +
     "<strong>" + result + "</strong>" + "일 남았습니다. <br>");
 document.write("남은 돈은 " +
