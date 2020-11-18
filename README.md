@@ -1,1 +1,1 @@
-# how-mutch-do-i-need-for-x
+# how-much-do-i-need-for-x
